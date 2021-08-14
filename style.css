@@ -9,7 +9,7 @@ body::-webkit-scrollbar {
   overflow: hidden;
   height: 100vh;
 }
-.wrapper .img-nav::webkit-scrollbar {
+.wrapper .img-nav::-webkit-scrollbar {
   display: none;
 }
 .wrapper .img-nav {
