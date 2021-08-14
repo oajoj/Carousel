@@ -9,8 +9,11 @@ body::-webkit-scrollbar {
   overflow: hidden;
   height: 100vh;
 }
+.wrapper .img-nav::webkit-scrollbar {
+  display: none;
+}
 .wrapper .img-nav {
-  overflow: hidden;
+  overflow: scroll;
 }
 .wrapper .img-nav a {
   height: 200px;
